@@ -1,4 +1,4 @@
-package aula01;
+package br.com.generation.sequencial;
 
 public class HelloWorld {
 
