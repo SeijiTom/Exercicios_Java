@@ -1,4 +1,4 @@
-package br.com.generation.exercicios2;
+package br.com.generation.collections.exercicios;
 
 import java.util.ArrayList;
 
