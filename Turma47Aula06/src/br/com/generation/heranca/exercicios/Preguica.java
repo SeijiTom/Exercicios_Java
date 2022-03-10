@@ -1,6 +1,10 @@
 package br.com.generation.heranca.exercicios;
 
 public class Preguica extends Animal{
+	
+	public void emitirSom() {
+		System.out.println("Preguiça gritando: Haaa! Haaa!");
+	}
 
 	private int quantidadeGarras;
 	private double volumeDoGrito;

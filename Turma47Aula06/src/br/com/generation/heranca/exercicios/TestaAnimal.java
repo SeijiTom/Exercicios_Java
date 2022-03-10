@@ -12,6 +12,10 @@ public class TestaAnimal {
 		Cachorro cao = new Cachorro();
 		Preguica preguica = new Preguica();
 		
+		cavalo.emitirSom();
+		cao.emitirSom();
+		preguica.emitirSom();
+		
 		System.out.println("Digite a(s) cor(es) do cavalo: ");
 		cavalo.setCor(entrada.next());
 		
@@ -29,5 +33,9 @@ public class TestaAnimal {
 		
 		entrada.close();
 	}
+
+		// TODO Auto-generated method stub
 	
 }
+	
+

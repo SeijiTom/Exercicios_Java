@@ -1,6 +1,10 @@
 package br.com.generation.heranca.exercicios;
 
 public class Cavalo extends Animal{
+	
+	public void emitirSom() {
+		System.out.println("Cavalo relinchando: hiin in in hinir");
+	}
 
 	private double tamanhoCrista;
 	private double volumeDoRelinche; 

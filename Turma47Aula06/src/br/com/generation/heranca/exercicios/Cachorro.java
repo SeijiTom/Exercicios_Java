@@ -2,6 +2,10 @@ package br.com.generation.heranca.exercicios;
 
 public class Cachorro extends Animal{
 	
+	public void emitirSom() {
+		System.out.println("Cachorro latindo: Au au");
+	}
+	
 	private double volumeDoLatido;
 	private double velocidadeAbanaCalda;
 	
